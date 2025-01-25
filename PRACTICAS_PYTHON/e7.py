@@ -13,11 +13,11 @@ suma_numero = 0
 j = 0
 #Ciclo
 for i in range(total_numeros):
-
-    numero = float(input('Ingrese el primer numero: '))
+    j = j + 1
+    numero = float(input('Ingrese el numero: '))
     lista_numeros.append(numero)
     suma_numero = suma_numero + numero
-    j = j + 1
+    
 
 promedio = suma_numero / j
 print(f'La lista de numeros es: {lista_numeros} y el promedio es: {promedio}')

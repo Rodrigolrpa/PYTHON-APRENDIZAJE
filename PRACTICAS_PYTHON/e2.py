@@ -9,7 +9,7 @@ import math
 radio = float(input('Ingrese el radio del circulo: '))
 
 #Calculo del area del circulo haciendo uso la libreria math.
-area_circulo = math.pi * radio ** 2
+area_circulo = math.pi * (radio ** 2)
 
 #Se muestra en pantalla el area del circulo con el radio dado anteriormente.
 print(f'El area del circulo de radio: {radio} es: {area_circulo}')

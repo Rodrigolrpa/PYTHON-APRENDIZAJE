@@ -6,7 +6,7 @@ nombre = input('Ingrese su nombre: ')
 apellido = input('Ingrese su apellido: ')
 
 #Concatenacion de las dos cadenas de texto ingresadas (+ " " concatena un espacio en blanco).
-nombre_completo = nombre +" " +apellido
+nombre_completo = nombre + " " + apellido
 
 #Se muestra en pantalla la concatenacion hecha anteriormente.
 print(f'Hola {nombre_completo} soy VS CODE.')
