@@ -1,11 +1,11 @@
 '''                         EJERCICIO NUMERO #15
                 ORDENA UNA LISTA DE NUMEROS DE MENOR A MAYOR.
 '''
-#Declaracion de la lista  de numeros
+#Declaracion de la lista  de numeros.
 lista_numeros = [1, 5, 8, 3, 9, 4, 6]
 print(lista_numeros)
 
-#Se hace uso de la funcion sort()
+#Se hace uso de la funcion sort().
 '''
     FUNCIONAMIENTO DEL ALGORITMO SORT
 
